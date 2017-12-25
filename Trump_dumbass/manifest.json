@@ -1,0 +1,14 @@
+{
+  "manifest_version": 1,
+  "name": "Bye Trump",
+  "version": "1.0",
+  "description": "Teplace text Trump with Dumbass on webpages.",
+  "content_scripts": 
+  [
+    {
+      "matches": ["*://*/*"],
+      "js": ["script.js"],
+      "run_at": "document_end"
+    }
+  ]
+}
