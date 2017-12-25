@@ -1,8 +1,8 @@
 {
-  "manifest_version": 1,
+  "manifest_version": 2,
   "name": "Bye Trump",
   "version": "1.0",
-  "description": "Teplace text Trump with Dumbass on webpages.",
+  "description": "Replace text Trump with Dumbass on webpages.",
   "content_scripts": 
   [
     {
